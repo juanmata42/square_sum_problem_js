@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "square_sum_problem_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:ES6": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test:ES6:watch": "node --experimental-vm-modules node_modules/jest/bin/jest.js --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "jest": "^27.2.5"
+  }
+}
